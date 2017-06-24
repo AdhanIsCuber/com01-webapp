@@ -1,0 +1,188 @@
+    @import 'now-ui-kit/variables';
+    .navbar .logo-container {
+        width: 200px;
+        height: auto;
+        overflow: hidden;
+        margin: 0 auto;
+        border-radius: 0;
+        border: 1px solid transparent;
+    }
+    
+    .navbar .navbar-nav.navbar-logo {
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        width: 200px;
+        top: -4px;
+    }
+    
+    .page-header {
+        max-height: 100vh;
+    }
+    
+    .search-gls {
+        padding-top: 15%;
+        width: 70%;
+        margin: 0 auto;
+        margin-bottom: 50px;
+        .input-search-gls {
+            margin-bottom: 20px;
+        }
+        .col-sm-1 {
+            margin-right: 0;
+            margin-left: 0;
+        }
+        i {
+            color: rgba(255, 255, 255, 0.8);
+        }
+        .btn-primary {
+            background-color: #ffda44 !important;
+        }
+        .btn-primary:hover,
+        .btn-primary:focus {
+            background-color: #f7c600 !important;
+        }
+    }
+    
+    .kategori-gls {
+        .kategori-item {
+            border: solid 0.5px rgba(222, 222, 222, 0.3);
+            border-radius: 7px;
+            margin: 15px;
+            background-color: transparent;
+            img {
+                width: 100%;
+                max-width: 80px;
+            }
+            h3 {
+                margin-bottom: 5px;
+                color: #fff;
+                font-weight: 300;
+            }
+            a:hover,
+            a:focus {
+                text-decoration-style: none !important;
+                list-style-type: none !important;
+                text-decoration: none !important;
+                h3 {
+                    color: #aaa;
+                    font-weight: 300;
+                }
+            }
+        }
+    }
+    
+    .page-header[filter-color="orange"] {
+        background: url(../img/overlays/06.png);
+    }
+    
+    .mask {
+        background: rgba(44, 44, 44, 0.8);
+    }
+    /* ---------------------------------------------------------------- */
+    
+    .page-header.page-header-small {
+        height: 34vh;
+        max-height: 440px;
+    }
+    
+    .search-gls-2 {
+        padding-top: 10%;
+        width: 70%;
+        margin: 0 auto;
+        margin-bottom: 50px;
+        .input-search-gls {
+            margin-bottom: 20px;
+        }
+        .col-sm-1 {
+            margin-right: 0;
+            margin-left: 0;
+        }
+        i {
+            color: rgba(255, 255, 255, 0.8);
+        }
+        .btn-primary {
+            background-color: #ffda44 !important;
+        }
+        .btn-primary:hover,
+        .btn-primary:focus {
+            background-color: #f7c600 !important;
+        }
+    }
+    
+    .section {
+        .img-kate img {
+            width: 100%;
+            margin: 7px;
+        }
+    }
+    
+    .daftar-gls {
+        .item-gls {
+            border: solid 1px rgba(200, 200, 200, 0.8);
+            border-radius: 7px;
+            margin: 0 15px;
+            background-color: transparent;
+            min-height: 120px;
+            hr {
+                margin-top: 15px;
+                margin-bottom: 0px;
+                padding: 0;
+            }
+            a {
+                color: #f7c600;
+            }
+            .fa {
+                color: #f7c600;
+            }
+            .badge {
+                font-weight: 400;
+                text-transform: none;
+                padding-right: 15px;
+                padding-left: 15px;
+            }
+            .item {
+                p {
+                    margin-top: 20px;
+                }
+                h4 {
+                    margin-top: 20px;
+                    margin-bottom: 5px;
+                }
+                .istilah {
+                    padding-left: 30px;
+                }
+                .icon-kate i {
+                    margin: 3px;
+                    font-weight: 200;
+                }
+            }
+        }
+    }
+    
+    .popover {
+        box-shadow: 0px 10px 50px 0px rgba(0, 0, 0, 0.2);
+        border: none;
+        line-height: 1.7;
+        max-width: 240px;
+        .popover-title {
+            color: #ffda44 !important;
+            text-transform: uppercase;
+            margin: 0;
+            margin-top: 5px;
+            border: none;
+            background-color: transparent;
+        }
+        &:before {
+            display: none;
+        }
+        &.bs-tether-element-attached-top:after {
+            border-bottom-color: #fff;
+            top: -9px;
+        }
+        &.popover-primary {
+            background-color: #f7c600 !important;
+            color: #fff;
+        }
+    }
