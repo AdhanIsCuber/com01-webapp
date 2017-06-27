@@ -41,11 +41,11 @@ app.get('/admin', function(req, res, next) {
 });
 
 app.get('/admin/login', function(req, res, next) {
-    res.render('admin/login.html');
+    res.render('admin/admin-login.html');
 });
 
 app.get('/admin/dashboard', function(req, res, next) {
-    res.render('admin/index.html');
+    res.render('admin/admin-dashboard.html');
 });
 
 var server = app.listen(3000, function() {
