@@ -48,6 +48,30 @@ app.get('/admin/dashboard', function(req, res, next) {
     res.render('admin/admin-dashboard.html');
 });
 
+app.get('/admin/data', function(req, res, next) {
+    res.render('admin/admin-data.html');
+});
+
+app.get('/admin/kategori', function(req, res, next) {
+    res.render('admin/admin-kategori.html');
+});
+
+app.get('/admin/addnew', function(req, res, next) {
+    res.render('admin/admin-addnew.html');
+});
+
+app.get('/admin/data-kontribusi', function(req, res, next) {
+    res.render('admin/admin-kontribusi.html');
+});
+
+app.get('/admin/revision', function(req, res, next) {
+    res.render('admin/admin-revision.html');
+});
+
+
+
+
+
 var server = app.listen(3000, function() {
     console.log('server start on http://127.0.0.1:3000');
 });
